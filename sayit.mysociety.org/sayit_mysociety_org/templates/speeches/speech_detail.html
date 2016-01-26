@@ -1,0 +1,190 @@
+{% extends 'speeches/base.html' %}
+{% load url from future %}
+{% load speech_i18n %}
+{% load staticfiles %}
+{% load speech_utils %}
+{% load thumbnail %}
+
+{% block extra_headers %}
+{% if object.celery_task_id %}
+    <meta http-equiv="refresh" content="5">
+{% endif %}
+{% with next=speech.get_next_speech previous=speech.get_previous_speech %}
+  {% if previous %}
+    <link rel="prev" href="{% url "speeches:speech-view" previous.id %}" />
+  {% endif %}
+  {% if next %}
+    <link rel="next" href="{% url "speeches:speech-view" next.id %}" />
+  {% endif %}
+{% endwith %}
+<link href="{% static "speeches/shariff/shariff.complete.css" %}" media="all" rel="stylesheet" />
+<link href="{% static "speeches/shariff/shariff.patch.css" %}" media="all" rel="stylesheet" />
+{% endblock %}
+
+{% block og_description %}{{ speech.text|striptags|truncatewords:30 }}{% endblock %}
+{% block og_image %}{% with speech.speaker as speaker %}{% if speaker.image_cache %}http{% if request.is_secure %}s{% endif %}://{{ request.get_host }}{{ speaker.image_cache.url }}{% elif speaker.image %}{{ speaker.image }}{% else %}{{ block.super }}{% endif %}{% endwith %}{% endblock %}
+{# we don't know the details of this image #}
+{% block og_image_details %}{% endblock %}
+
+{% block extra_js %}
+<script type="text/javascript" src="{% static "speeches/shariff/shariff.complete.js" %}" charset="utf-8"></script>
+{% endblock %}
+
+{% block content %}
+
+{% if object.celery_task_id %}
+<div class="page-header">
+    <p class="lead">{% trans "Please wait, audio is being transcribed. This page will automatically refresh in 5 seconds..." %}</p>
+</div>
+{% else %}
+
+<div class="single-speech-layout">
+
+
+
+  {% if 'created' in request.GET %}
+    <div class="single-speech-layout__speech-created">
+        <h2>{% trans 'Your speech has been saved!' %}</h2>
+      {% if object.section %}
+        <a href="{% url "speeches:speech-add" %}?section={{ object.section.id }}" class="button small">{% trans 'Add another speech like this' %}</a>
+        <a href="{% url 'speeches:section-view' object.section.get_path %}#s{{ object.id }}" class="button secondary small">{% trans "Show speech in context" %}</a>
+      {% else %}
+        <a href="{% url "speeches:speech-add" %}" class="button small right">{% trans 'Add another speech' %}</a>
+      {% endif %}
+    </div>
+  {% endif %}
+
+    <div class="single-speech-layout__speech-column">
+            <div class="speech speech-single-speech">
+              {% if speech.speaker %}
+                <a class="speech-single-speech__speaker-portrait" href="{% url "speeches:speaker-view" object.speaker.slug %}">
+                <img src="{% if speech.speaker.image_cache %}{{ speech.speaker.image_cache|thumbnail_url:'speaker-thumb' }}{% elif speech.speaker.image %}{{ speech.speaker.image }}{% else %}{% static "speeches/i/a.png" %}{% endif %}"
+                  style="border-color: #{{ speech.speaker.colour }}; background-color: #{{ speech.speaker.colour }};" alt=""  class="speaker-portrait speaker-portrait--left round-image speaker-portrait--large">
+                </a>
+              {% endif %}
+                <div class="speech__meta-data">
+                  {% if object.type == 'speech' or object.type == 'question' or object.type == 'answer' %}
+                      {% if object.speaker %}
+                          {% url "speeches:speaker-view" object.speaker.slug as speaker_url %}
+                          {% if object.start_date %}
+                              {% blocktrans with type=object.get_type_display speaker=object.speaker speaker_url=speaker_url date=object.start_date trimmed %}
+                                  <span class="speech__meta-data__speech-type">{{ type }}</span>
+                                  by
+                                  <span class="speech__meta-data__speaker-name">
+                                    <a href="{{ speaker_url }}">{{ speaker }}</a>
+                                  </span>
+                                  on
+                                  <span class="speech__meta-data__date">{{ date }}</span>
+                              {% endblocktrans %}
+                          {% else %}
+                              {% blocktrans with type=object.get_type_display speaker=object.speaker speaker_url=speaker_url trimmed %}
+                                  <span class="speech__meta-data__speech-type">{{ type }}</span>
+                                  by
+                                  <span class="speech__meta-data__speaker-name">
+                                    <a href="{{ speaker_url }}">{{ speaker }}</a>
+                                  </span>
+                              {% endblocktrans %}
+                          {% endif %}
+                      {% else %}
+                          {% if object.start_date %}
+                              {% blocktrans with type=object.get_type_display date=object.start_date trimmed %}
+                                  <span class="speech__meta-data__speech-type">{{ type }}</span>
+                                  by
+                                  <span class="speech__meta-data__speaker-name">an unknown speaker</span>
+                                  on
+                                  <span class="speech__meta-data__date">{{ date }}</span>
+                              {% endblocktrans %}
+                          {% else %}
+                              {% blocktrans with type=object.get_type_display trimmed %}
+                                  <span class="speech__meta-data__speech-type">{{ type }}</span>
+                                  by
+                                  <span class="speech__meta-data__speaker-name">an unknown speaker</span>
+                              {% endblocktrans %}
+                          {% endif %}
+                      {% endif %}
+                  {% else %}
+                      {% if object.start_date %}
+                          {% blocktrans with type=object.get_type_display date=object.start_date trimmed %}
+                              <span class="speech__meta-data__speech-type">{{ type }}</span>
+                              on
+                              <span class="speech__meta-data__date">{{ date }}</span>
+                          {% endblocktrans %}
+                      {% else %}
+                          {% blocktrans with type=object.get_type_display trimmed %}
+                              <span class="speech__meta-data__speech-type">{{ type }}</span>
+                          {% endblocktrans %}
+                      {% endif %}
+                  {% endif %}
+                </div>
+              {% if object.audio %}
+                <p>
+                    <audio id="the-audio" src="{{ MEDIA_URL }}{{ object.audio }}" controls></audio>
+                    <script>
+                        var a = $('#the-audio'), ae = a[0];
+                        if (ae.playbackRate) {
+                            $('<label><input type="checkbox" id="speed"> Play at half speed (experimental)</label>').insertAfter(a);
+                            $('#speed').click(function(){
+                                ae.playbackRate = 1.5 - ae.playbackRate;
+                            });
+                        }
+                    </script>
+                </p>
+              {% endif %}
+
+              {% if object.title %}
+                <h1>{{ object.title }}</h1>
+              {% endif %}
+
+              {% if object.text %}
+                <div class="speech__content speech__content-single-speech">
+                    {{ object.text|bleach }}
+                </div>
+              {% endif %}
+
+              {% if object.section %}
+                {% include "speeches/_breadcrumbs.html" with section=object.section all=1 %}
+              {% endif %}
+
+                <div class="speech__links">
+                    <div data-lang="es" data-services="[&quot;facebook&quot;,&quot;twitter&quot;,&quot;googleplus&quot;,&quot;whatsapp&quot;,&quot;xing&quot;]" data-title="{{object.title}}" class="shariff"></div>
+                    {% if object.section %}
+                      <a href="{% url 'speeches:section-view' object.section.get_path %}#s{{ object.id }}"><i class="speech-icon icon-link-in-context"></i>{% trans "Show context" %}</a>
+                    {% endif %}
+                    {% if object.source_url %}
+                      <a href="{{ object.source_url }}"><i class="speech-icon icon-link"></i>{% trans "Source" %}</a>
+                    {% endif %}
+                    {% if request.is_user_instance %}
+                      <a href="{{ speech.get_edit_url }}"><i class="speech-icon icon-edit"></i>{% trans "Edit" %}</a>
+                      <a href="{{ speech.get_delete_url }}"><i class="speech-icon icon-delete"></i>{% trans "Delete" %}</a>
+                    {% endif %}
+
+                  </div>
+
+            </div> <!-- ./speech -->
+
+            {% with next=speech.get_next_speech previous=speech.get_previous_speech %}
+              {% if previous or next %}
+                <div class="speech-navigation">
+                  <div class="speech-navigation__column speech-navigation__column--one">
+                    {% if previous %}
+                     <a href="{% url "speeches:speech-view" previous.id %}" class="button speech-navigation__button">&laquo; {{ previous.summary|bleach }}</a>
+                    {% endif %}
+                    {% if next %}
+                      <a href="{% url "speeches:speech-view" next.id %}" class="button speech-navigation__button">{{ next.summary|bleach }} &raquo;</a>
+                    {% endif %}
+                  </div>
+                  <div class="speech-navigation__column speech-navigation__column--two">
+                    <div class="ui-instructions">
+                        <h2>{% trans "Keyboard shortcuts" %}</h2>
+                        <p><span class="key-descriptor">j</span> {% trans "previous speech" %}
+                        <span class="key-descriptor">k</span> {% trans "next speech" %}</p></div>
+                  </div>
+                </div>
+              {% endif %}
+            {% endwith %}
+        </div>
+    </div>
+
+{% endif %}
+
+{% endblock %}

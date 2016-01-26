@@ -1,0 +1,799 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# johnfelipe <ingenierofelipeurrego@gmail.com>, 2014-2015
+# johnfelipe <ingenierofelipeurrego@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: sayit.mysociety.org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-19 15:08+0100\n"
+"PO-Revision-Date: 2015-06-19 20:21+0000\n"
+"Last-Translator: johnfelipe <ingenierofelipeurrego@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/mysociety/sayitmysocietyorg/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: forms.py:8
+msgid "E-mail"
+msgstr "Correo electrónico"
+
+#: templates/about/community.html:7
+msgid "Community"
+msgstr "Comunidad"
+
+#: templates/about/questions.html:6
+msgid "Questions about SayIt"
+msgstr "Preguntas sobre ACTAS INTELIGENTES ASAMBLEA ARAUCA"
+
+#: templates/about/questions.html:12 templates/base.html:237
+msgid "Help"
+msgstr "Ayuda"
+
+#: templates/about/questions.html:16
+msgid "What is SayIt?"
+msgstr "Que es ACTAS INTELIGENTES ASAMBLEA ARAUCA?"
+
+#: templates/about/questions.html:20
+msgid ""
+"It’s an open source tool for making transcripts easy to read, search and "
+"share on the modern internet."
+msgstr "Es una herramienta de código abierto para hacer transcripciones fácil de leer, buscar y compartir en la Internet moderna."
+
+#: templates/about/questions.html:23
+msgid "What is a Poplus Component?"
+msgstr "¿Qué es un componente Poplus?"
+
+#: templates/about/questions.html:28
+msgid ""
+"<a href=\"http://poplus.org/\">Poplus</a> is a global collaboration of "
+"groups that believe it is currently too difficult and expensive to build "
+"effective new digital tools to help citizens exert power over institutions. "
+"Poplus Components are loosely joined tools, mostly structured as web "
+"services, that can be used to radically decrease the development time of "
+"empowerment sites and apps."
+msgstr "<a href=\"http://poplus.org/\">Poplus</a> es una iniciativa de colaboración de grupos que creen que es actualmente demasiado difícil y costoso construir nuevas herramientas digitales eficaces para ayudar a los ciudadanos ejercen el poder sobre las instituciones. Los componentes Poplus están unidos, principalmente estructuradas como servicios web, que pueden ser utilizados para disminuir radicalmente el tiempo de desarrollo de sitios de empoderamiento y aplicaciones."
+
+#: templates/about/questions.html:32
+msgid "Why try to make transcripts better?"
+msgstr "¿Por qué tratar de hacer mejor transcripciones?"
+
+#: templates/about/questions.html:37
+msgid ""
+"Transcripts are a kind of oil that greases the wheels of well-functioning "
+"societies. They let people discover when powerful people have made "
+"pronouncements that affect less powerful people. We believe that by making "
+"transcripts function better, more people will end up learning about "
+"decisions and opinions that affect their lives."
+msgstr "Las transcripciones son un tipo de aceite que engrasa las ruedas de las sociedades que funcionan bien. Dejan que la gente descubre cuando los poderosos han hecho pronunciamientos que afectan a las personas con menos poder. Creemos que al hacer transcripciones funcionen mejor, más gente va a acabar aprendiendo sobre las decisiones y opiniones que afectan sus vidas."
+
+#: templates/about/questions.html:41
+msgid "What sort of people or organisations can SayIt help?"
+msgstr "¿Qué clase de personas u organizaciones pueden necesitar ACTAS INTELIGENTES ASAMBLEA ARAUCA?"
+
+#: templates/about/questions.html:45
+msgid "Lots, including:"
+msgstr "Lotes, incluyendo:"
+
+#: templates/about/questions.html:47
+msgid ""
+"Journalists, who want to store, search and publish both the transcripts of "
+"specific events, and databases of speeches and statements by politicians."
+msgstr "Los periodistas, que quieren almacenar, buscar y publicar tanto las transcripciones de los eventos específicos y bases de datos de los discursos y las declaraciones de los políticos."
+
+#: templates/about/questions.html:48
+msgid ""
+"Officials in courts, who want to produce transcripts that are quicker and "
+"easier to use."
+msgstr "Los funcionarios de los tribunales, que quieren producir transcripciones que son más rápidos y más fáciles de usar."
+
+#: templates/about/questions.html:49
+msgid ""
+"Official in parliaments and other assemblies, who want to make transcripts "
+"that the public and politicians can more easily make use of."
+msgstr "Oficial en los parlamentos y otras asambleas, que quieren hacer las transcripciones que el público y los políticos puedan acceder más fácil a su uso."
+
+#: templates/about/questions.html:50
+msgid ""
+"Researchers who have records of interviews with subjects, who want that data"
+" to be quick and easy to access, even if private."
+msgstr "Los investigadores que tienen registros de las entrevistas con los sujetos, que quieren que los datos sean rápidos y de fácil acceso, aunque privados."
+
+#: templates/about/questions.html:51
+msgid ""
+"Campaigners and activists who want to track what certain people say about "
+"key issues."
+msgstr "Jefes de campaña y los activistas que quieren seguir lo que dice la gente sobre ciertas cuestiones clave."
+
+#: templates/about/questions.html:55
+msgid "Why is a SayIt transcript better than a PDF version?"
+msgstr "¿Por qué es mejor una transcripción ACTAS INTELIGENTES ASAMBLEA ARAUCA que una versión en PDF?"
+
+#: templates/about/questions.html:59
+msgid "SayIt has several advantages over classic paper or PDF versions:"
+msgstr "ACTAS INTELIGENTES ASAMBLEA ARAUCA tiene varias ventajas sobre las versiones en papel o en formato PDF clásicos:"
+
+#: templates/about/questions.html:61
+msgid ""
+"The design is mobile responsive to make reading and navigation pleasant "
+"across devices, large and small"
+msgstr "El diseño es adaptativo para hacer de la lectura y la navegación agradable a través de dispositivos, grandes y pequeños"
+
+#: templates/about/questions.html:62
+msgid ""
+"Search within an entire database of speeches, for example a whole trial, or "
+"everything said by an elected assembly &ndash; better than opening hundreds "
+"of PDFs and searching manually."
+msgstr "Buscar dentro de toda una base de datos de los discursos, por ejemplo un ensayo conjunto, o todo lo dicho por una asamblea elegida - mejor que abrir cientos de archivos PDF y la búsqueda manual."
+
+#: templates/about/questions.html:63
+msgid ""
+"Search within one person’s speeches, even if they only speak occasionally; "
+"and each speech is linked to a person, making it easy to see everything "
+"someone has said."
+msgstr "Buscar en los discursos de una persona, incluso si sólo hablan de vez en cuando; y cada discurso está vinculado a una persona, por lo que es fácil de ver todo lo que alguien ha dicho."
+
+#: templates/about/questions.html:64
+msgid ""
+"Easily share links to a single session (for example at a trial), or even a "
+"single speech within a session."
+msgstr "Fácil de compartir enlaces a una sola sesión (por ejemplo, en un ensayo), o incluso un solo discurso dentro de una sesión."
+
+#: templates/about/questions.html:65
+msgid ""
+"Make your transcripts more likely to show up clearly in search engines."
+msgstr "Haga que sus transcripciones tengan más probabilidad de aparecer claramente en los motores de búsqueda."
+
+#: templates/about/questions.html:66
+msgid ""
+"There’s an API for people who want to do more advanced text processing."
+msgstr "Hay una API para la gente que quiere hacer el procesamiento de texto más avanzado."
+
+#: templates/about/questions.html:70
+msgid "How do I get a transcript online using SayIt?"
+msgstr "¿Cómo puedo obtener una transcripción en línea usando ACTAS INTELIGENTES ASAMBLEA ARAUCA?"
+
+#: templates/about/questions.html:75
+msgid ""
+"You could convert your data to the right format, and work with us to get it "
+"uploaded to an instance here on sayit.mysociety.org. You could log in and "
+"author transcripts directly through this web interface, sharing your "
+"instance with others to help. Or you could install SayIt on your own server "
+"in your own project. <a href=\"/about/transcripts\">More details</a>."
+msgstr "Se podría convertir sus datos al formato adecuado, y trabajar con nosotros para conseguirlo subido a una instancia aquí en sayit.mysociety.org. Se podía entrar y transcripciones de autor directamente a través de esta interfaz web, compartiendo su instancia con otros para ayudar. O usted podría instalar ACTAS INTELIGENTES ASAMBLEA ARAUCA en su propio servidor en su propio proyecto. <a href=\"/about/transcripts\">Más detalles</a>."
+
+#: templates/about/questions.html:79
+msgid "Why do you call this a Beta?"
+msgstr "¿Por qué se llama a esto un Beta?"
+
+#: templates/about/questions.html:84
+msgid ""
+"In web development, ‘Beta’ is the name for a release of a piece of software "
+"which is in progress. In the case of SayIt, we are launching early so that "
+"we can learn more about what features people want us to build, and which are"
+" less important."
+msgstr "En el desarrollo web, 'Beta' es el nombre de una liberación de una pieza de software que está en curso. En el caso de ACTAS INTELIGENTES ASAMBLEA ARAUCA, estamos poniendo en marcha temprano para que podamos aprender más acerca de lo que dispone la gente quiere que construyamos, y que son menos importantes."
+
+#: templates/about/questions.html:88
+msgid "Aren’t transcripts sort of old fashioned? Isn’t everything video now?"
+msgstr "¿No son transcripciones algo ya pasado de moda? ¿No es mejor el video ahora?"
+
+#: templates/about/questions.html:93
+msgid ""
+"Online video is definitely amazing stuff. But text transcripts offer certain"
+" virtues too, which makes them valuable in different ways. If you want to "
+"know whether a committee has been talking about you, or you want to "
+"subscribe to be sent alerts when your street gets mentioned by powerful "
+"people, then written transcripts, made of nicely structured data, are hard "
+"to beat. The ideal system would clearly mix written words, audio and video, "
+"and being open source we hope that SayIt can be integrated with other "
+"systems that specialise in AV. We&rsquo;re keen to talk to people running "
+"projects in this field."
+msgstr "El video online es sin duda algo increíble. Pero transcripciones de texto ofrecen ciertas virtudes también, que los hace valiosos en diferentes maneras. Si quieres saber si un comité ha estado hablando de ti, o si desea suscribirse a enviar alertas cuando su calle se mencione por personas poderosas, transcripciones son mejor en escritos, hechos a datos bien estructurados, son difíciles de superar. El sistema ideal sería mezclar con claridad las palabras escritas, audio y video, y ser de código abierto, esperamos que ACTAS INTELIGENTES ASAMBLEA ARAUCA se puede integrar con otros sistemas que se especializan en la AV. Nosotros estamos dispuestos a hablar con gente que maneja proyectos en este campo."
+
+#: templates/about/questions.html:97
+msgid "Is SayIt open source? Does it use open standards or open data?"
+msgstr "Es ACTAS INTELIGENTES ASAMBLEA ARAUCA de código abierto? ¿Utiliza estándares abiertos o datos abiertos?"
+
+#: templates/about/questions.html:102
+msgid ""
+"SayIt is open source, licensed under the Affero GPL, and you can check out "
+"the code in <a href=\"https://github.com/mysociety/sayit\">our GitHub "
+"repo</a>. The data standard we use is a <a href=\"/about/developers\">subset"
+" of the Akoma Ntoso</a> data standard  &ndash; a standard developed "
+"specifically for use in parliaments and assemblies."
+msgstr "ACTAS INTELIGENTES ASAMBLEA ARAUCA es de código abierto, licenciado bajo la GPL de Affero, y se puede revisar el código en  <a href=\"https://github.com/mysociety/sayit\">Nuestro GitHub repo</a>. El estándar de datos que utilizamos es un <a href=\"/about/developers\">subconjunto de Akoma Ntoso</a> estándar de datos - un estándar desarrollado específicamente para su uso en los parlamentos y asambleas."
+
+#: templates/about/questions.html:106
+msgid ""
+"Can I write a parser that loads data directly into SayIt on a daily or "
+"weekly basis?"
+msgstr "¿Puedo escribir un analizador que carga los datos directamente en ACTAS INTELIGENTES ASAMBLEA ARAUCA sobre una base diaria o semanal?"
+
+#: templates/about/questions.html:110
+msgid ""
+"Yes &ndash; we’re keen to see people use the site like this. Please contact "
+"us so we can discuss how best to implement this so it works well for you and"
+" us."
+msgstr "Sí - estamos dispuestos a ver la gente usa el sitio como este. Por favor, póngase en contacto con nosotros para que podamos discutir la mejor manera de implementar este por lo que funciona bien para usted y nosotros."
+
+#: templates/about/questions.html:113
+msgid "Does SayIt support languages other than English?"
+msgstr "ACTAS INTELIGENTES ASAMBLEA ARAUCA tiene soportado otros idiomas distintos del Inglés?"
+
+#: templates/about/questions.html:118
+msgid ""
+"Yes. Transcripts can be authored in any language, and we welcome "
+"translations of the interface at <a "
+"href=\"https://www.transifex.com/projects/p/sayit/\">our project on "
+"Transifex</a>. Do <a href=\"/about/community\">contact us</a> if you want to"
+" help us launch a non-English SayIt site."
+msgstr "Sí. Las transcripciones se pueden crear en cualquier idioma, y damos la bienvenida a las traducciones de la interfaz en <a href=\"https://www.transifex.com/projects/p/sayit/\">Nuestro proyecto en Transifex</a>. Haga <a href=\"/about/community\"> contáctenos </a> si quieres ayudarnos a lanzar un sitio en otro Idioma."
+
+#: templates/about/questions.html:122
+msgid ""
+"I’m a developer who thinks this is cool. What’s the best thing for me to do?"
+msgstr "Soy un desarrollador que piensa que esto es genial. ¿Cuál es la mejor cosa que yo haga?"
+
+#: templates/about/questions.html:127
+msgid ""
+"There are plenty of options! Please see our dedicated <a "
+"href=\"/about/developers\">page for developers</a>."
+msgstr "Hay un montón de opciones! Por favor, consulte nuestra pagina <a href=\"/about/developers\">dedicada para desarrolladores </a>."
+
+#: templates/about/questions.html:130
+msgid "Can SayIt sites be made private?"
+msgstr "¿Pueden los sitios ACTAS INTELIGENTES ASAMBLEA ARAUCA ser privados?"
+
+#: templates/about/questions.html:135
+msgid ""
+"Yes, please <a href=\"/about/community\">contact us</a> if you want to "
+"discuss this feature. We understand that some organisations, for example "
+"newspapers, might want to run private databases of speeches for business "
+"purposes."
+msgstr "Sí, <a href=\"/about/community\"> contáctenos </a> si desea discutir esta función. Entendemos que algunas organizaciones, por ejemplo, periódicos, tal vez quiera ejecutar bases de datos privadas de discursos para fines comerciales."
+
+#: templates/about/questions.html:139
+msgid "Can SayIt be used to track speeches made in more than one place?"
+msgstr "Puede ACTAS INTELIGENTES ASAMBLEA ARAUCA ser utilizado para rastrear los discursos pronunciados en más de un lugar?"
+
+#: templates/about/questions.html:144
+msgid ""
+"Yes, you don’t just have to record one event, like a trial or a focus group."
+" You can build up nicely structured database of quotes made by people across"
+" media sources, or from books and papers. We would like to see people use "
+"SayIt to build sites like ‘all public statements by the Prime Minister’."
+msgstr "Sí, usted no sólo tiene que grabar un programa, como un juicio o un grupo de enfoque. Usted puede construir la base de datos bien estructurada de las citas hechas por la gente a través de medios de comunicación, o de libros y papeles. Nos gustaría que la gente use ACTAS INTELIGENTES ASAMBLEA ARAUCA para construir sitios como «todas las declaraciones públicas del primer ministro."
+
+#: templates/about/questions.html:148
+msgid "Who built this?"
+msgstr "¿Quién construyó esto?"
+
+#: templates/about/questions.html:153
+msgid ""
+"SayIt was mainly built by <a href=\"http://mysociety.org\">mySociety</a>, "
+"and more specifically by Matthew Somerville, a senior developer. It was "
+"designed by Martin Wright and project managed by Tom Steinberg."
+msgstr "ACTAS INTELIGENTES ASAMBLEA ARAUCA fue construido principalmente por <a href=\"http://mysociety.org\"> mySociety </a>, y más concretamente por Matthew Somerville, un programador senior. Fue diseñado por Martin Wright y proyecto gestionado por Tom Steinberg."
+
+#: templates/about/questions.html:157
+msgid "Who funded it?"
+msgstr "¿Quién lo financió?"
+
+#: templates/about/questions.html:162
+msgid ""
+"mySociety gets funding from various places, such as the <a "
+"href=\"http://www.opensocietyfoundations.org/\">Open Society Foundation</a>,"
+" the <a href=\"http://www.omidyar.com/\">Omidyar Network</a> and profits "
+"from our own commercial work. SayIt was mostly funded by a grant from <a "
+"href=\"http://www.google.com/giving/\">Google.org</a>, though, for which we "
+"are very grateful."
+msgstr "mySociety recibe financiación de varios lugares, como el <a href=\"http://www.opensocietyfoundations.org/\"> Fundación Open Sociedad </a>, the <a href=\"http://www.omidyar.com/\">Omidyar Network</a>  y se beneficia de nuestro propio trabajo comercial. ACTAS INTELIGENTES ASAMBLEA ARAUCA fue financiado principalmente por una subvención del <a href=\"http://www.google.com/giving/\">Google.org</a>, aunque, por lo cual estamos muy agradecidos."
+
+#: templates/accept_invitation.html:5 templates/accept_invitation.html.py:9
+msgid "Welcome to SayIt"
+msgstr "Bienvenido a ACTAS INTELIGENTES ASAMBLEA ARAUCA"
+
+#: templates/accept_invitation.html:12
+msgid "Bad Token"
+msgstr "Mal Token"
+
+#: templates/accept_invitation.html:14
+#, python-format
+msgid ""
+"The invite link was invalid, possibly because it has already been used.  "
+"Please try requesting a <a href=\"%(passwd_reset_url)s\">password reset</a>."
+msgstr "El enlace de invitar no era válida, posiblemente debido a que ya se ha utilizado. Por favor, intente solicitar un <a href=\"%(passwd_reset_url)s\">restablecimiento de contraseña</a>."
+
+#: templates/accept_invitation.html:17
+msgid "Please set a password"
+msgstr "Por favor, establecer una contraseña"
+
+#: templates/accept_invitation.html:21
+msgid "Take me to the speeches!"
+msgstr "Llévame a los discursos / Actas!"
+
+#: templates/accept_invitation.html:24
+msgid "Your password is now changed."
+msgstr "Su contraseña ha sido cambiada."
+
+#: templates/accept_invite_message.txt:1
+#, python-format
+msgid ""
+"Hello %(invitee)s,\n"
+"\n"
+"Here's something - %(inviter)s has invited you to help edit\n"
+"\"%(instance_title)s\" on SayIt.\n"
+"\n"
+"SayIt is a very simple way of storing and publishing speeches and transcripts\n"
+"online. Getting started is easy.\n"
+"\n"
+"As a first step, please go to %(password_reset_url)s to set up your account,\n"
+"and then you can start adding speeches.\n"
+"\n"
+"Yours,\n"
+"The SayIt Team\n"
+msgstr "Hola %(invitee)s,\n\nAquí alguien - %(inviter)s te ha invitado para ayudar a editar\n\"%(instance_title)s\" en ACTAS INTELIGENTES.\n\nACTAS INTELIGENTES es una manera muy sencilla de almacenar y publicar los discursos y transcripciones en línea. Comenzar es fácil.\n\nComo primer paso, por favor vaya a %(password_reset_url)s para configurar su cuenta,\ny entonces usted puede comenzar a agregar discursos.\n"
+
+#: templates/accept_invite_subject.txt:3
+#, python-format
+msgid "You've been invited to help edit \"%(instance_title)s\"!"
+msgstr "Ha sido invitado para ayudar a editar \"%(instance_title)s\"!"
+
+#: templates/account/login.html:10 templates/account/login.html.py:17
+#: templates/account/login.html:55 templates/base.html:112
+#: templates/registration/login.html:6 templates/registration/login.html:10
+msgid "Log in"
+msgstr "Iniciar Sesion"
+
+#: templates/account/login.html:37
+msgid "Need an account?"
+msgstr "¿Necesitas una cuenta?"
+
+#: templates/account/login.html:38
+msgid "Username or e-mail"
+msgstr "Nombre de usuario o correo electrónico"
+
+#: templates/account/login.html:46
+msgid "Forgot password?"
+msgstr "¿Has olvidado tu contraseña?"
+
+#: templates/account/signup.html:9 templates/account/signup.html.py:16
+#: templates/account/signup.html:62 templates/instances/instance_form.html:10
+#: templates/instances/instance_form.html:24
+#: templates/instances/instance_form.html:88
+msgid "Sign up"
+msgstr "contratar"
+
+#: templates/account/signup.html:37
+msgid "Your e-mail address:"
+msgstr "Tu e-mail:"
+
+#: templates/account/signup.html:45
+msgid "(No spaces please)"
+msgstr "(Sin espacios)"
+
+#: templates/account/signup.html:46
+msgid "Pick a username:"
+msgstr "Elige un nombre de usuario:"
+
+#: templates/account/signup.html:55
+msgid "Pick a password:"
+msgstr "Elija una clave:"
+
+#: templates/admin/base_site.html:28 templates/admin/base_site.html.py:31
+msgid "SayIt administration"
+msgstr "Administración ACTAS INTELIGENTES ASAMBLEA ARAUCA"
+
+#: templates/base.html:8 templates/base.html.py:14 templates/base.html:15
+#: templates/base.html.py:99 templates/base.html:132
+#: templates/base.html.py:222
+msgid "SayIt"
+msgstr "ACTAS INTELIGENTES ASAMBLEA ARAUCA"
+
+#: templates/base.html:16
+msgid "Transcripts for the modern internet"
+msgstr "Transcripciones para la Internet moderna"
+
+#: templates/base.html:87
+msgid ""
+"This is a staging site &ndash; any data saved here <strong>may be "
+"deleted</strong>."
+msgstr "Se trata de un sitio de ensayo - todos los datos guardados aquí <strong> pueden ser borrados </ strong>."
+
+#: templates/base.html:99
+msgid "Modern transcripts"
+msgstr "Transcripciones modernas"
+
+#: templates/base.html:102 templates/base.html.py:207
+msgid "About"
+msgstr "Acerca"
+
+#: templates/base.html:103
+msgid "Contact"
+msgstr "contacto"
+
+#: templates/base.html:104 templates/instances/instance_form.html:86
+msgid "Create New SayIt"
+msgstr "Crear nuevo ACTAS INTELIGENTES ASAMBLEA ARAUCA"
+
+#: templates/base.html:108 templates/instances/your_instances.html:4
+#: templates/instances/your_instances.html:10
+msgid "Your Instances"
+msgstr "Sus instancias"
+
+#: templates/base.html:109
+msgid "Log out"
+msgstr "Cerrar sesión"
+
+#: templates/base.html:114
+msgid "Other SayIt sites"
+msgstr "Otros sitios web ACTAS INTELIGENTES ASAMBLEA ARAUCA"
+
+#: templates/base.html:129
+msgid "Edit"
+msgstr "Editar"
+
+#: templates/base.html:141
+msgid "More&hellip;"
+msgstr "Más ..."
+
+#: templates/base.html:150
+msgid "Menu"
+msgstr "Menu"
+
+#: templates/base.html:154
+msgid "Home"
+msgstr "Inicio"
+
+#: templates/base.html:155
+msgid "Speakers"
+msgstr "Ponente"
+
+#: templates/base.html:160 templates/base.html.py:162 templates/base.html:164
+msgid "Speeches"
+msgstr "Discursos"
+
+#: templates/base.html:172
+msgid "Search"
+msgstr "Buscar"
+
+#: templates/base.html:173
+msgid "Go"
+msgstr "Ir"
+
+#: templates/base.html:213
+msgid "Back to top"
+msgstr "Ir arriba"
+
+#: templates/base.html:223
+msgid ""
+"An open source tool for making transcripts really easy to read, search and "
+"share on the modern web"
+msgstr "Una herramienta de código abierto para hacer transcripciones muy fácil de leer, buscar y compartir en la web moderna"
+
+#: templates/base.html:228
+msgid "Blog"
+msgstr "Blog"
+
+#: templates/base.html:229
+msgid "Twitter"
+msgstr "Twitter"
+
+#: templates/base.html:230
+msgid "Facebook"
+msgstr "Facebook"
+
+#: templates/base.html:231
+msgid "GitHub"
+msgstr "GitHub"
+
+#: templates/base.html:236
+msgid "Get involved"
+msgstr "Involúcrese"
+
+#: templates/base.html:238
+msgid "Developers"
+msgstr "Desarrolladores"
+
+#: templates/base.html:239
+msgid "Transcripts"
+msgstr "Transcripciones"
+
+#: templates/base.html:244
+msgid "The Leveson Inquiry"
+msgstr "La investigación Leveson"
+
+#: templates/base.html:245
+msgid "Charles Taylor Trial"
+msgstr "Juicio Charles Taylor"
+
+#: templates/base.html:246
+msgid "Plays of Shakespeare"
+msgstr "Obras de Shakespeare"
+
+#: templates/base.html:252
+msgid "mySociety"
+msgstr "mySociety"
+
+#: templates/base.html:253
+msgid "A mySociety project"
+msgstr "Un proyecto mySociety"
+
+#: templates/base.html:256
+msgid "Poplus"
+msgstr "Poplus"
+
+#: templates/base.html:257
+msgid "A Poplus component"
+msgstr "Un componente de Poplus"
+
+#: templates/instance_invite_existing_message.txt:1
+#, python-format
+msgid ""
+"%(inviter)s has invited you to help edit \"%(instance_title)s\" on SayIt.\n"
+"\n"
+"As you're already a SayIt user, you can log in with your existing credentials,\n"
+"and get stuck in immediately. Just go to:\n"
+"\n"
+"%(instance_url)s\n"
+"\n"
+"Yours,\n"
+"The SayIt Team\n"
+msgstr "%(inviter)s te ha invitado a ayudar a editar \"%(instance_title)s\" on ACTAS INTELIGENTES.\n\nComo usted ya es un usuario ACTAS INTELIGENTES, puedes iniciar sesión con sus credenciales existentes,\ny quedar atrapado en forma inmediata. Sólo tienes que ir a:\n\n%(instance_url)s\n"
+
+#: templates/instance_invite_existing_subject.txt:3
+#, python-format
+msgid "You've been invited to help edit \"%(instance_title)s\" on SayIt!"
+msgstr "Ha sido invitado para ayudar a editar \"%(instance_title)s\" on ACTAS INTELIGENTES!"
+
+#: templates/instances/index.html:5
+msgid "SayIt: Bringing transcripts into the Internet age"
+msgstr "ACTAS INTELIGENTES ASAMBLEA ARAUCA: Traer transcripciones a la era de la Internet"
+
+#: templates/instances/index.html:13
+msgid "Bringing transcripts<br>into the Internet&nbsp;age"
+msgstr "Traer Transcripciones <br> en la era de Internet"
+
+#: templates/instances/index.html:14
+msgid ""
+"SayIt is a whole new way to organise, publish,<br>and share your transcripts"
+" – and it’s free."
+msgstr "ACTAS INTELIGENTES ASAMBLEA ARAUCA es una nueva forma de organizar, publicar, <br> y compartir sus transcripciones - y es gratis."
+
+#: templates/instances/index.html:15
+msgid "Start using SayIt"
+msgstr "Comience a usar ACTAS INTELIGENTES ASAMBLEA ARAUCA"
+
+#: templates/instances/index.html:22
+msgid ""
+"Whether you want to <b>upload whole transcripts</b>, or throw together a "
+"<b>collection of individual quotes</b>, SayIt&nbsp;takes the hassle out of "
+"organizing and browsing your spoken and written&nbsp;content."
+msgstr "Si usted quiere <b> cargar toda transcripciones </b>, o lanzar <b>una colección de citas individuales </b>, ACTAS INTELIGENTES ASAMBLEA ARAUCA se toma la molestia de organizar y navegar por su contenido hablado y escrito."
+
+#: templates/instances/index.html:29
+msgid "For campaigners and community&nbsp;groups"
+msgstr "Para los activistas y grupos comunitarios"
+
+#: templates/instances/index.html:30
+msgid ""
+"Publish transcripts from meetings or share statements from those in power. "
+"Anyone can use SayIt, alone or in collaboration with others."
+msgstr "Publicar transcripciones de las reuniones o declaraciones de acciones de quienes están en el poder. Cualquier persona puede utilizar ACTAS INTELIGENTES ASAMBLEA ARAUCA, solo o en colaboración con otros."
+
+#: templates/instances/index.html:31
+msgid ""
+"With SayIt, it’s easy to browse, search or share any statement online – "
+"helping you spread your message further."
+msgstr "Con ACTAS INTELIGENTES ASAMBLEA ARAUCA, es fácil de navegar, buscar o compartir cualquier declaración en línea - ayudando a difundir su mensaje más allá."
+
+#: templates/instances/index.html:32 templates/instances/index.html.py:45
+#: templates/instances/index.html:58 templates/instances/index.html.py:70
+msgid "See an example:"
+msgstr "Véase un ejemplo:"
+
+#: templates/instances/index.html:32
+msgid "Quotes about West Pier, Brighton"
+msgstr "Citas sobre West Pier, Brighton"
+
+#: templates/instances/index.html:35
+msgid "SayIt containing individual quotes about West Pier in Brighton"
+msgstr "ACTAS INTELIGENTES ASAMBLEA ARAUCA contiene citas individuales sobre West Pier de Brighton"
+
+#: templates/instances/index.html:42
+msgid "For councils and organisations that hold public&nbsp;meetings"
+msgstr "Para concejos, asambleas, senados y organizaciones que celebran reuniones públicas"
+
+#: templates/instances/index.html:43
+msgid ""
+"Still publishing meeting transcripts on PDFs? SayIt makes it easier for your"
+" readers to find the parts that really interest them."
+msgstr "Aún publicas transcripciones de reuniones en archivos PDF? ACTAS INTELIGENTES ASAMBLEA ARAUCA hace que sea más fácil para sus lectores el encontrar las partes que realmente les interesan."
+
+#: templates/instances/index.html:44
+msgid ""
+"Unlike crusty old PDFs, SayIt works beautifully on every device from a phone"
+" to a tablet to a desktop. And it’s acccessible for screenreaders and "
+"assistive devices."
+msgstr "A diferencia de los viejos archivos PDF, ACTAS INTELIGENTES ASAMBLEA ARAUCA funciona de maravilla en todos los dispositivos desde un teléfono a una tableta a un PC escritorio. Y es acccessible para los lectores de pantalla y los dispositivos de asistencia."
+
+#: templates/instances/index.html:45
+msgid "The Leveson Inquiry transcripts"
+msgstr "Las transcripciones The Leveson Inquiry"
+
+#: templates/instances/index.html:48
+msgid "Screenshot of the SayIt speech editing interface"
+msgstr "Captura de pantalla de la interfaz de edición de ACTAS INTELIGENTES ASAMBLEA ARAUCA"
+
+#: templates/instances/index.html:55
+msgid "For researchers, historians, and&nbsp;journalists"
+msgstr "Para los investigadores, historiadores y periodistas"
+
+#: templates/instances/index.html:56
+msgid "Forget those dusty folders – SayIt organises your interviews for you."
+msgstr "Olvídese de esas carpetas polvorientas - ACTAS INTELIGENTES ASAMBLEA ARAUCA organiza sus entrevistas para usted."
+
+#: templates/instances/index.html:57
+msgid ""
+"Search by keyword, across your entire canon or within just one interview. "
+"Browse by date, speaker or segment. Link to and share one statement, or "
+"entire interviews, with ease."
+msgstr "Buscar por palabra clave, a través de toda su canon o dentro de una sola entrevista. Navegar por fecha, el ponente o segmento. Link a y compartir una declaración, o entrevistas enteras, con facilidad."
+
+#: templates/instances/index.html:58
+msgid "The Nixon Watergate tapes"
+msgstr "Las cintas de Nixon de Watergate"
+
+#: templates/instances/index.html:61
+msgid "President Nixon’s profile page in the Watergate Tapes SayIt"
+msgstr "Página de perfil del presidente Nixon en las cintas del caso Watergate"
+
+#: templates/instances/index.html:67
+msgid "And lots, lots more!"
+msgstr "Y mucho, mucho más!"
+
+#: templates/instances/index.html:68
+msgid ""
+"SayIt isn’t just for work: it’s for anyone who wants to collect statements "
+"on any subject, or publish any form of spoken word."
+msgstr "ACTAS INTELIGENTES ASAMBLEA ARAUCA no es sólo para el trabajo: es para cualquier persona que quiere recoger declaraciones sobre cualquier tema, o publicar cualquier tipo de palabra hablada."
+
+#: templates/instances/index.html:69
+msgid ""
+"From wartime love-letters to local history projects, SayIt is a wonderful, "
+"easy-access way to organise transcripts."
+msgstr "Desde tiempos de guerra cartas de amor a los proyectos de historia local, ACTAS INTELIGENTES ASAMBLEA ARAUCA es una manera maravillosa, de fácil acceso, para organizar transcripciones."
+
+#: templates/instances/index.html:70
+msgid "The complete works of Shakespeare"
+msgstr "Las obras completas de Shakespeare"
+
+#: templates/instances/index.html:76
+msgid "Create your own SayIt and get started in seconds!"
+msgstr "Crea tu propio ACTAS INTELIGENTES ASAMBLEA ARAUCA y empeza en cuestión de segundos!"
+
+#: templates/instances/index.html:77
+msgid "Start collecting speeches with SayIt"
+msgstr "Comience a recoger discursos con ACTAS INTELIGENTES ASAMBLEA ARAUCA"
+
+#: templates/instances/index.html:84
+msgid "Or integrate the SayIt Component into your own website"
+msgstr "O integra el componente ACTAS INTELIGENTES ASAMBLEA ARAUCA en su propio sitio web"
+
+#: templates/instances/index.html:89
+msgid ""
+"The code that runs SayIt is also a <a href=\"http://poplus.org\">Poplus "
+"Component</a>, which means you can quickly host it on your own server, "
+"customise the look and feel, or build it into an existing website."
+msgstr "El código que se ejecuta ACTAS INTELIGENTES ASAMBLEA ARAUCA es también un <a href=\"http://poplus.org\"> Componente Poplus </ a>, lo que significa que puede rápidamente alojarlo en su propio servidor, personalizar el aspecto y la sensación, o construirlo en un sitio web existente."
+
+#: templates/instances/index.html:92
+msgid "Develop with SayIt"
+msgstr "Desarrollar con ACTAS INTELIGENTES ASAMBLEA ARAUCA"
+
+#: templates/instances/instance_form.html:6
+#: templates/instances/instance_form.html:20
+msgid "Edit instance"
+msgstr "Editar instancia"
+
+#: templates/instances/instance_form.html:8
+msgid "New instance"
+msgstr "Nueva instancia"
+
+#: templates/instances/instance_form.html:22
+msgid "Start a new SayIt"
+msgstr "Inicia un nuevo proyecto ACTAS INTELIGENTES"
+
+#: templates/instances/instance_form.html:26
+msgid ""
+"SayIt gives you your own site for publishing and sharing speeches and "
+"statements."
+msgstr "ACTAS INTELIGENTES ASAMBLEA ARAUCA le da su propio sitio para publicar y compartir discursos / actas y declaraciones."
+
+#: templates/instances/instance_form.html:27
+msgid ""
+"You could use it to publish transcripts of individual meetings, or rag-bag "
+"databases of everything said by a certain person or group of people (e.g. "
+"statements by political candidates). It&rsquo;s free and constantly "
+"improving."
+msgstr "Usted puede usarlo para publicar transcripciones de las reuniones individuales, o las rag-bag / bases de datos de todo lo dicho por una persona o grupo de personas (por ejemplo, declaraciones de los candidatos políticos). Es gratis y se esta mejorando constantemente."
+
+#: templates/instances/instance_form.html:52
+msgid "roman-senate"
+msgstr "Senado Romano"
+
+#: templates/instances/instance_form.html:66
+msgid "Speeches by Ancient Roman Senators"
+msgstr "Los discursos de los antiguos senadores romanos"
+
+#: templates/instances/instance_form.html:75
+msgid "Selected speeches from roughly 700 BC to 400 AD"
+msgstr "Discursos seleccionados desde aproximadamente el año 700 aC al 400 dC"
+
+#: templates/instances/instance_form.html:84
+msgid "Update instance"
+msgstr "actualizar instancia"
+
+#: templates/instances/your_instances.html:26
+msgid "(no description)"
+msgstr "(sin descripción)"
+
+#: templates/instances/your_instances.html:41
+msgid "(created by you)"
+msgstr "(creado por usted)"
+
+#: templates/instances/your_instances.html:52
+#, python-format
+msgid ""
+"You have don't yet have any instances. Would you like to <a "
+"href='%(create_instance_url)s'>create one</a>?"
+msgstr "No tienen ninguna instancia todavía. Le gustaría <a href='%(create_instance_url)s'>crear una</a>?"
+
+#: templates/messages/accept_invite_success.txt:2
+msgid "Password set. You can now create and edit speeches and sections."
+msgstr "Fijar contraseña. Ahora puede crear y editar los discursos y las secciones."
+
+#: templates/share_instance_with_collaborators.html:12
+msgid "Share your SayIt"
+msgstr "Comparte tu ACTAS INTELIGENTES ASAMBLEA ARAUCA"
+
+#: templates/share_instance_with_collaborators.html:14
+msgid ""
+"Enter the e-mail address of someone you&rsquo;d like to be able to create "
+"and edit speeches and sections"
+msgstr "Introduzca la dirección de correo electrónico de alguien a quien le gustaría ser capaz de crear y editar los discursos y las secciones"
+
+#: templates/share_instance_with_collaborators.html:23
+msgid "Send invite"
+msgstr "Enviar invitación"
+
+#: templates/speeches/home.html:6
+msgid "Invite friends to help"
+msgstr "Invita a tus amigos para ayudar"
+
+#: templates/speeches/home.html:13 templates/speeches/parentless_list.html:8
+#: templates/speeches/speaker_list.html:8
+msgid "This is a brand new SayIt site."
+msgstr "Esta es una marca de un nuevo sitio ACTAS INTELIGENTES ASAMBLEA ARAUCA."
+
+#: templates/speeches/home.html:14 templates/speeches/parentless_list.html:9
+#: templates/speeches/speaker_list.html:9
+msgid ""
+"Its creator hasn&rsquo;t yet added any speeches or statements for you to "
+"see."
+msgstr "El creador aún no ha añadido ningún discursos o declaraciones para que usted vea."
+
+#: templates/speeches/home.html:15 templates/speeches/parentless_list.html:10
+#: templates/speeches/speaker_list.html:10
+msgid "Learn more about SayIt"
+msgstr "Más información sobre ACTAS INTELIGENTES ASAMBLEA ARAUCA"
+
+#: templates/speeches/speech_form.html:5
+msgid "Invite some friends to help you"
+msgstr "Invite a algunos amigos que te ayuden"

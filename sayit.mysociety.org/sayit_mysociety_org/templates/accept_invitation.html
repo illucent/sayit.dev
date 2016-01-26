@@ -1,0 +1,29 @@
+{% extends "account/base.html" %}
+
+{% load url from future %}
+{% load i18n %}
+{% block title %}{% trans "Welcome to SayIt" %}{% endblock %}
+
+{% block content %}
+<div class="form-page">
+    <h1>{% trans "Welcome to SayIt" %}</h1>
+
+    {% if token_fail %}
+        <p>{% trans "Bad Token" %}</p>
+        {% url 'account_reset_password' as passwd_reset_url %}
+        <p>{% blocktrans %}The invite link was invalid, possibly because it has already been used.  Please try requesting a <a href="{{ passwd_reset_url }}">password reset</a>.{% endblocktrans %}</p>
+    {% else %}
+        {% if form %}
+            <p>{% trans "Please set a password" %}</p>
+            <form method="POST" action=".">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="submit" name="action" value="{% trans "Take me to the speeches!" %}" class="button" />
+            </form>
+        {% else %}
+            <p>{% trans 'Your password is now changed.' %}</p>
+        {% endif %}
+    {% endif %}
+</div>
+
+{% endblock %}

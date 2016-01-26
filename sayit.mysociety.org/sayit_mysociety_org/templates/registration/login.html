@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+<div class="centered-form">
+<h1>{% trans "Log in" %}</h1>
+
+<form class="form-horizontal" method="post">
+    <input type="hidden" name="next" value="{{ next }}">
+    {% trans "Log in" as login %}
+    {% include "speeches/form.html" with type="login" submit=login %}
+</form>
+</div>
+{% endblock %}

@@ -1,0 +1,926 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# noamoss <noamoss@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: sayit.mysociety.org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-19 22:22+0100\n"
+"PO-Revision-Date: 2015-01-24 22:01+0000\n"
+"Last-Translator: noamoss <noamoss@gmail.com>\n"
+"Language-Team: Hebrew (http://www.transifex.com/projects/p/sayitmysocietyorg/"
+"language/he/)\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: forms.py:8
+msgid "E-mail"
+msgstr "דוא\"ל"
+
+#: templates/about/community.html:7
+msgid "Community"
+msgstr "קהילה"
+
+#: templates/about/questions.html:6
+msgid "Questions about SayIt"
+msgstr "שאלות בנוגע ל-SayIt"
+
+#: templates/about/questions.html:12 templates/base.html:237
+msgid "Help"
+msgstr "עזרה"
+
+#: templates/about/questions.html:16
+msgid "What is SayIt?"
+msgstr "מה זה SayIt?"
+
+#: templates/about/questions.html:20
+msgid ""
+"It’s an open source tool for making transcripts easy to read, search and "
+"share on the modern internet."
+msgstr ""
+"זהו כלי קוד פתוח ליצירת רישום תמלילים שקל לקרוא, לחפש ולשתף ברשת האינטרנט "
+"המודרנית."
+
+#: templates/about/questions.html:23
+msgid "What is a Poplus Component?"
+msgstr "מהו רכיב Poplus?"
+
+#: templates/about/questions.html:28
+msgid ""
+"<a href=\"http://poplus.org/\">Poplus</a> is a global collaboration of "
+"groups that believe it is currently too difficult and expensive to build "
+"effective new digital tools to help citizens exert power over institutions. "
+"Poplus Components are loosely joined tools, mostly structured as web "
+"services, that can be used to radically decrease the development time of "
+"empowerment sites and apps."
+msgstr ""
+"<a href=\"http://poplus.org/\">Poplus </a> הוא שיתוף פעולה עולמי של קבוצות "
+"המאמינות שקשה ויקר מידי לבנות כלים דיגיטליים חדשים ואפקטיביים שיסייעו "
+"לאזרחים לצבור כוח מול מוסדות. הרכיבים של Poplus הם כלים המחוברים ביניהם, "
+"בדרך כלל בצורה של שירותי אינטרנט, אשר מסייעים בקיצור משמעותי בזמן הפיתוח של "
+"אתרים ואפליקציות מעצימים."
+
+#: templates/about/questions.html:32
+msgid "Why try to make transcripts better?"
+msgstr "למה לנסות לשפר תמלילים?"
+
+#: templates/about/questions.html:37
+msgid ""
+"Transcripts are a kind of oil that greases the wheels of well-functioning "
+"societies. They let people discover when powerful people have made "
+"pronouncements that affect less powerful people. We believe that by making "
+"transcripts function better, more people will end up learning about "
+"decisions and opinions that affect their lives."
+msgstr ""
+"תמלילים הם סוג של שמן שמניע את גלגלי הביצוע של חברות. הם מאפשר לאנשים לגלות "
+"כשאנשים בעלי עוצמה מצהירים הצהרות בעלות השפעה על אנשים בעלי עוצמה פחותה. אנו "
+"מאמינים שבאמצעות תמלילים טובים יתר, יותר אנשים ילמדו על החלטות ודעות "
+"שמשפיעות על חייהם."
+
+#: templates/about/questions.html:41
+msgid "What sort of people or organisations can SayIt help?"
+msgstr "לאיזה סוג של אנשים וארגונים יכול SayIt לעזור?"
+
+#: templates/about/questions.html:45
+msgid "Lots, including:"
+msgstr "הרבה, ובכלל זה:"
+
+#: templates/about/questions.html:47
+msgid ""
+"Journalists, who want to store, search and publish both the transcripts of "
+"specific events, and databases of speeches and statements by politicians."
+msgstr ""
+"עיתונאים, המעוניינים לאכסן, לחפש ולפרסם תמלילים של אירועים מסויימים, ומאגרי "
+"נתונים של נאומים והצהרות של פוליטיקאים."
+
+#: templates/about/questions.html:48
+msgid ""
+"Officials in courts, who want to produce transcripts that are quicker and "
+"easier to use."
+msgstr "בעלי תפקידים בבתי משפט, המעוניינים להפיק תמלילים מהירים וקלים לשימוש."
+
+#: templates/about/questions.html:49
+msgid ""
+"Official in parliaments and other assemblies, who want to make transcripts "
+"that the public and politicians can more easily make use of."
+msgstr ""
+"בעלי תפקידים בפרלמנטים ואסיפות אחרות, המעוניינים לייצר תמלילים בהם יוכלו "
+"הציבור והפוליטיקאים להיעזר בקלות."
+
+#: templates/about/questions.html:50
+msgid ""
+"Researchers who have records of interviews with subjects, who want that data "
+"to be quick and easy to access, even if private."
+msgstr ""
+"חוקרים בעלי רשומות אודות ראיונות של מושאי מחקר, המעוניינים שמידע זה יהיה "
+"זמין בצורה מהירה וקלה, גם באופן פרטי."
+
+#: templates/about/questions.html:51
+msgid ""
+"Campaigners and activists who want to track what certain people say about "
+"key issues."
+msgstr ""
+"אנשי קמפיין ופעילים המועניינים לעקוב אחרי מה אומרים אנשים בנושאים מרכזיים"
+
+#: templates/about/questions.html:55
+msgid "Why is a SayIt transcript better than a PDF version?"
+msgstr "מדוע תמליל של SayIt טוב יותר מגרסת PDF?"
+
+#: templates/about/questions.html:59
+msgid "SayIt has several advantages over classic paper or PDF versions:"
+msgstr "ל-SayIt יש כמה יתרונות על גרסאות נייר קלאסיות או PDF:"
+
+#: templates/about/questions.html:61
+msgid ""
+"The design is mobile responsive to make reading and navigation pleasant "
+"across devices, large and small"
+msgstr ""
+"העיצוב מותאם למכשירים ניידים כדי לאפשר קריאה וניווט נוחים במכשירים שונים, "
+"גדולים וקטנים"
+
+#: templates/about/questions.html:62
+msgid ""
+"Search within an entire database of speeches, for example a whole trial, or "
+"everything said by an elected assembly &ndash; better than opening hundreds "
+"of PDFs and searching manually."
+msgstr ""
+"חיפוש בתוך מאגר המידע השלם של הנאומים, לדוגמא, משט שלם או כל דבר שנאמר על "
+"ידי ועדה נבחרת  &ndash; טוב יותר מלפתוח מאות קבצי PDF וחיפוש ידני."
+
+#: templates/about/questions.html:63
+msgid ""
+"Search within one person’s speeches, even if they only speak occasionally; "
+"and each speech is linked to a person, making it easy to see everything "
+"someone has said."
+msgstr ""
+"חיפוש בתוך נאומיו של אדם אחד, אפילו אם הם מדברים לעתים קרובות; וכל נאום "
+"מקושר לאדם, מה שמקל על האפשרות לראות כל מה שמישהו אמר."
+
+#: templates/about/questions.html:64
+msgid ""
+"Easily share links to a single session (for example at a trial), or even a "
+"single speech within a session."
+msgstr ""
+"שתפו בקלות קישורים לישיבה  (לדוגמא, ישיבה במסגרת משפט), או אפילו לנאום יחיד "
+"בתוך ישיבה."
+
+#: templates/about/questions.html:65
+msgid "Make your transcripts more likely to show up clearly in search engines."
+msgstr "הגדילו את הסיכויים למופע ברור של התמלילים שלכם במנועי חיפוש."
+
+#: templates/about/questions.html:66
+msgid "There’s an API for people who want to do more advanced text processing."
+msgstr "יש ממשק נתונים (API) לאנשים שמעוניינים לבצע עיבוד מתקדם יותר לטקסט."
+
+#: templates/about/questions.html:70
+msgid "How do I get a transcript online using SayIt?"
+msgstr "איך אני מגיע/ה לתמליל מקוון בעזרת SayIt?"
+
+#: templates/about/questions.html:75
+msgid ""
+"You could convert your data to the right format, and work with us to get it "
+"uploaded to an instance here on sayit.mysociety.org. You could log in and "
+"author transcripts directly through this web interface, sharing your "
+"instance with others to help. Or you could install SayIt on your own server "
+"in your own project. <a href=\"/about/transcripts\">More details</a>."
+msgstr ""
+"תוכלו להמיר את המידע שלכם למבנה המתאים ולעבוד איתנו כדי להעלות אותו כאן "
+"לאתר. תוכלו להתחבר ולחבר תמלילים ישירות באמצעות ממשק האתר הזה, ולשתף את "
+"המופעים עם אחרים שיוכלו לעזור. או שתוכלו להתקין את SayIt על שרת משלכם "
+"בפרוייקט של עצמכם.  <a href=\"/about/transcripts\"> לפרטים נוספים</a>."
+
+#: templates/about/questions.html:79
+msgid "Why do you call this a Beta?"
+msgstr "מדוע אתם מכנים את האתר \"גרסת בטא\"?"
+
+#: templates/about/questions.html:84
+msgid ""
+"In web development, ‘Beta’ is the name for a release of a piece of software "
+"which is in progress. In the case of SayIt, we are launching early so that "
+"we can learn more about what features people want us to build, and which are "
+"less important."
+msgstr ""
+"בפיתוח אתרים, \"גרסת בטא\" מכוונת לחלק מתוכנה שנמצאת בהליכי פיתוח. במקרה של "
+"SayIt, אנחנו משחררים גרסה מקודמת כדי שנוכל ללמוד עוד על התכונות שאנשים רוצים "
+"שניצור, ואילו תכונות פחות חשובות."
+
+#: templates/about/questions.html:88
+msgid "Aren’t transcripts sort of old fashioned? Isn’t everything video now?"
+msgstr "האם תמלילים הפכו לקצת מיושנים? האם לא הכל קורה היום בפורמט של וידאו?"
+
+#: templates/about/questions.html:93
+msgid ""
+"Online video is definitely amazing stuff. But text transcripts offer certain "
+"virtues too, which makes them valuable in different ways. If you want to "
+"know whether a committee has been talking about you, or you want to "
+"subscribe to be sent alerts when your street gets mentioned by powerful "
+"people, then written transcripts, made of nicely structured data, are hard "
+"to beat. The ideal system would clearly mix written words, audio and video, "
+"and being open source we hope that SayIt can be integrated with other "
+"systems that specialise in AV. We&rsquo;re keen to talk to people running "
+"projects in this field."
+msgstr ""
+"וידאו מקוון הוא בהחלט עניין מדהים. אבל תמלילי טקסט מציעים מה מעלות גם כן, "
+"אשר הופכות אותם להיות בעלי ערך במובנים אחרים. אם אתם רוצים לדעת האם ועדה "
+"דיברה עליכם, קשה יהיה להביס תמלילים אם וכאשר תרצו להירשם כמנויים ולקבל "
+"התראות כאשר הרוב שלכם מוזכר על ידי אנשים בעלי עוצמה, אז תמלילים כתובם, "
+"שנוצרו בצורה מאורגנת היטב. מערכת אידאלית תערב בין מלים כתובות, שמע ווידאו, "
+"וכפרוייקט קוד פתוח אנו מקווים ש-SayIt תוכל להיות משולבת במערכות אחרות "
+"שמתמחות ב-AV. נשמח מאוד לדבר עם אנשים שמקדמים פרוייקטים כאלו."
+
+#: templates/about/questions.html:97
+msgid "Is SayIt open source? Does it use open standards or open data?"
+msgstr ""
+"האם SayIt היא פרוייקט קוד פתוח? האם היא משתמש בסטנדרטים פתוחים או מידע פתוח?"
+
+#: templates/about/questions.html:102
+msgid ""
+"SayIt is open source, licensed under the Affero GPL, and you can check out "
+"the code in <a href=\"https://github.com/mysociety/sayit\">our GitHub repo</"
+"a>. The data standard we use is a <a href=\"/about/developers\">subset of "
+"the Akoma Ntoso</a> data standard  &ndash; a standard developed specifically "
+"for use in parliaments and assemblies."
+msgstr ""
+"SayIt היא פרוייקט קוד פתוח, הפועל תחת רישיון Affero GPL, ותוכלו לצפות בקוד "
+"שלה ב <a href=\"https://github.com/mysociety/sayit\"> מאגר הקוד שלנו "
+"בגיטהאב</a>. סטנדרט המידע שבו משתמשים בו נגזר מתוך <a href=\"/about/"
+"developers\">ה-Akoma Ntoso</a> - תקן שפותח במיוחד לשמוש בפרלמנטים וועדות."
+
+#: templates/about/questions.html:106
+msgid ""
+"Can I write a parser that loads data directly into SayIt on a daily or "
+"weekly basis?"
+msgstr ""
+"האם אני יכול/ה לכתוב קוד ניתוח (parser) שטוען נתונים ישירות אלתוך SayIt על "
+"בסיס יומי או שבועי?"
+
+#: templates/about/questions.html:110
+msgid ""
+"Yes &ndash; we’re keen to see people use the site like this. Please contact "
+"us so we can discuss how best to implement this so it works well for you and "
+"us."
+msgstr ""
+"כן&ndash; נשמח לראות אנשים שמשתמשים באתר בצורות כאלו. אנא צרו איתנו קשר כדי "
+"שנוכל לדון בדרכים המוצלחות יותר ליישם זאת באופן שיתאים לכל הצדדים."
+
+#: templates/about/questions.html:113
+msgid "Does SayIt support languages other than English?"
+msgstr "האם SayIt תומך בשפות אחרות מלבד אנגלית?"
+
+#: templates/about/questions.html:118
+msgid ""
+"Yes. Transcripts can be authored in any language, and we welcome "
+"translations of the interface at <a href=\"https://www.transifex.com/"
+"projects/p/sayit/\">our project on Transifex</a>. Do <a href=\"/about/"
+"community\">contact us</a> if you want to help us launch a non-English SayIt "
+"site."
+msgstr ""
+"כן. תמלילים יכולים להיות בכל שפה, ואנחנו מעודדים תרגום של הממשק ב<a href="
+"\"https://www.transifex.com/projects/p/sayit/\">עמוד הפרוייקט שלנו ב-"
+"Transifex</a>.  <a href=\"/about/community\">צרו איתנו קשר</a> אם אתם "
+"מעוניינים לעזור לנו להעלות אתר SayIt בשפה שאינה אנגלית."
+
+#: templates/about/questions.html:122
+msgid ""
+"I’m a developer who thinks this is cool. What’s the best thing for me to do?"
+msgstr "אני מפתח/ת שחושב/ת שזה אדיר. מה הדבר הכי טוב שאני יכול/ה לעשות?"
+
+#: templates/about/questions.html:127
+msgid ""
+"There are plenty of options! Please see our dedicated <a href=\"/about/"
+"developers\">page for developers</a>."
+msgstr ""
+"יש אין סוף אפשרויות! גלשו אל  <a href=\"/about/developers\">עמוד המפתחים "
+"והמפתחות שלנו</a>."
+
+#: templates/about/questions.html:130
+msgid "Can SayIt sites be made private?"
+msgstr "האם אתרי SayIt יכולים להפוך להיות פרטיים?"
+
+#: templates/about/questions.html:135
+msgid ""
+"Yes, please <a href=\"/about/community\">contact us</a> if you want to "
+"discuss this feature. We understand that some organisations, for example "
+"newspapers, might want to run private databases of speeches for business "
+"purposes."
+msgstr ""
+"כן. אם אתם מעוניינים לדון באפשרות זו <a href=\"/about/community\">צרו איתנו "
+"קשר</a>. אנחנו מבינים שישנם ארגונים, לדוגמא עיתונים, אשר מעוניינים להריץ "
+"מאגר מידע פרטי של נאומים לצרכים עסקיים."
+
+#: templates/about/questions.html:139
+msgid "Can SayIt be used to track speeches made in more than one place?"
+msgstr "האם SayIt יכול לשמש כדי לעקוב אחרי נאומים שניתנו ביותר ממקום אחד?"
+
+#: templates/about/questions.html:144
+msgid ""
+"Yes, you don’t just have to record one event, like a trial or a focus group. "
+"You can build up nicely structured database of quotes made by people across "
+"media sources, or from books and papers. We would like to see people use "
+"SayIt to build sites like ‘all public statements by the Prime Minister’."
+msgstr ""
+"כן, אתם לא חייבים להקליט ארוע אחד, כמו משפט או קבוצת מיקוד. אתם יכולים לבנות "
+"מאגר נתונים מובנה היטב של ציטוטים של אנשים במגוון מדיות, או מספרים ועיתונים. "
+"היינו רוצים לראות אנשים משתמשים ב-SayIt כדי לבנות אתרים כמו \"כל ההצהרות "
+"הציבוריות של ראש הממשלה\"."
+
+#: templates/about/questions.html:148
+msgid "Who built this?"
+msgstr "מי בנה/בנתה את זה?"
+
+#: templates/about/questions.html:153
+msgid ""
+"SayIt was mainly built by <a href=\"http://mysociety.org\">mySociety</a>, "
+"and more specifically by Matthew Somerville, a senior developer. It was "
+"designed by Martin Wright and project managed by Tom Steinberg."
+msgstr ""
+"SayIt נוצר בעיקר על ידי <a href=\"http://mysociety.org\">mySociety</a>, "
+"ובאופן מדוייק יותר על ידי מת'יו סומרוויל (Matthew Somerville), מפתח בכיר. "
+"הפרוייקט עוצב על ידי מרטין וורייט ( Martin Wright) ומנוהל על ידי תום "
+"שטיינברג (Tom Steinberg)."
+
+#: templates/about/questions.html:157
+msgid "Who funded it?"
+msgstr "מי מממן את זה?"
+
+#: templates/about/questions.html:162
+msgid ""
+"mySociety gets funding from various places, such as the <a href=\"http://www."
+"opensocietyfoundations.org/\">Open Society Foundation</a>, the <a href="
+"\"http://www.omidyar.com/\">Omidyar Network</a> and profits from our own "
+"commercial work. SayIt was mostly funded by a grant from <a href=\"http://"
+"www.google.com/giving/\">Google.org</a>, though, for which we are very "
+"grateful."
+msgstr ""
+"mySociety זוכה למימון ממספר מקורות, כמו  <a href=\"http://www."
+"opensocietyfoundations.org/\">Open Society Foundation</a>, <a href=\"http://"
+"www.omidyar.com/\">Omidyar Network</a> והכנסות מפעילותנו המסחרית. SayIt "
+"ממומנת בעיקר על ידי מענק מ<a href=\"http://www.google.com/giving/\">Google."
+"org</a>, שעליו אנו אסירי תודה."
+
+#: templates/accept_invitation.html:5 templates/accept_invitation.html.py:9
+msgid "Welcome to SayIt"
+msgstr "ברוכים הבאים ל-SayIt"
+
+#: templates/accept_invitation.html:12
+msgid "Bad Token"
+msgstr "Token רע"
+
+#: templates/accept_invitation.html:14
+#, python-format
+msgid ""
+"The invite link was invalid, possibly because it has already been used.  "
+"Please try requesting a <a href=\"%(passwd_reset_url)s\">password reset</a>."
+msgstr ""
+"הקישור להזמנה אינו תקין, כנראה מפני שכבר נעשה בו שימוש. אנא נסו לבקש <a href="
+"\"%(passwd_reset_url)s\">אתחול סיסמה</a>."
+
+#: templates/accept_invitation.html:17
+msgid "Please set a password"
+msgstr "אנא הגדירו סיסמה"
+
+#: templates/accept_invitation.html:21
+msgid "Take me to the speeches!"
+msgstr "קחו אותי לנאומים!"
+
+#: templates/accept_invitation.html:24
+msgid "Your password is now changed."
+msgstr "הסיסמה שלכם השתנתה."
+
+#: templates/accept_invite_message.txt:1
+#, python-format
+msgid ""
+"Hello %(invitee)s,\n"
+"\n"
+"Here's something - %(inviter)s has invited you to help edit\n"
+"\"%(instance_title)s\" on SayIt.\n"
+"\n"
+"SayIt is a very simple way of storing and publishing speeches and "
+"transcripts\n"
+"online. Getting started is easy.\n"
+"\n"
+"As a first step, please go to %(password_reset_url)s to set up your "
+"account,\n"
+"and then you can start adding speeches.\n"
+"\n"
+"Yours,\n"
+"The SayIt Team\n"
+msgstr ""
+"שלום %(invitee)s,\n"
+"\n"
+"הנה משהו ש%(inviter)s הזמין/הזמינה אותך לעזור לערוך \n"
+"\"\"%(instance_title)s\" ב-SayIt.\n"
+"\n"
+"SayIt היא דרך פשוטה לאכסן ולפרסם נאומים ותמלילים\n"
+"באופן מקוון. מאוד פשוט להתחיל.\n"
+"\n"
+"כצעד ראשון, גלשו אל %(password_reset_url)s כדי להתקין חשבון, \n"
+"ותוכלו להתחיל להוסיף נאומים.\n"
+"\n"
+"שלכם,\n"
+"צוותSayIt\n"
+
+#: templates/accept_invite_subject.txt:3
+#, python-format
+msgid "You've been invited to help edit \"%(instance_title)s\"!"
+msgstr "הוזמנת לעזור לערוך את \"%(instance_title)s\"!"
+
+#: templates/account/login.html:10 templates/account/login.html.py:17
+#: templates/account/login.html:55 templates/base.html:112
+#: templates/registration/login.html:6 templates/registration/login.html:10
+msgid "Log in"
+msgstr "התחברו"
+
+#: templates/account/login.html:37
+msgid "Need an account?"
+msgstr "צריכים חשבון?"
+
+#: templates/account/login.html:38
+msgid "Username or e-mail"
+msgstr "שם משתמש או דוא\"ל"
+
+#: templates/account/login.html:46
+msgid "Forgot password?"
+msgstr "שכחת סיסמה?"
+
+#: templates/account/signup.html:9 templates/account/signup.html.py:16
+#: templates/account/signup.html:62 templates/instances/instance_form.html:10
+#: templates/instances/instance_form.html:24
+#: templates/instances/instance_form.html:88
+msgid "Sign up"
+msgstr "הרשמה"
+
+#: templates/account/signup.html:37
+msgid "Your e-mail address:"
+msgstr "כתובת הדוא\"ל שלך:"
+
+#: templates/account/signup.html:45
+msgid "(No spaces please)"
+msgstr "(בלי רווחים בבקשה)"
+
+#: templates/account/signup.html:46
+msgid "Pick a username:"
+msgstr "בחרו שם משתמש/ת:"
+
+#: templates/account/signup.html:55
+msgid "Pick a password:"
+msgstr "בחרו סיסמה:"
+
+#: templates/admin/base_site.html:28 templates/admin/base_site.html.py:31
+msgid "SayIt administration"
+msgstr "ניהול SayIt"
+
+#: templates/base.html:8 templates/base.html.py:14 templates/base.html:15
+#: templates/base.html.py:99 templates/base.html:132
+#: templates/base.html.py:222
+msgid "SayIt"
+msgstr "SayIt"
+
+#: templates/base.html:16
+msgid "Transcripts for the modern internet"
+msgstr ""
+
+#: templates/base.html:87
+msgid ""
+"This is a staging site &ndash; any data saved here <strong>may be deleted</"
+"strong>."
+msgstr ""
+"זהו אתר אחסון זמני &ndash; מידע שישמר כאן <strong> עשוי להימחק</strong>."
+
+#: templates/base.html:99
+msgid "Modern transcripts"
+msgstr "תמלילים מודרנים"
+
+#: templates/base.html:102 templates/base.html.py:207
+msgid "About"
+msgstr "אודות"
+
+#: templates/base.html:103
+msgid "Contact"
+msgstr "יצירת קשר"
+
+#: templates/base.html:104 templates/instances/instance_form.html:86
+msgid "Create New SayIt"
+msgstr "יצירת SayIt חדש"
+
+#: templates/base.html:108 templates/instances/your_instances.html:4
+#: templates/instances/your_instances.html:10
+msgid "Your Instances"
+msgstr "המופעים שלך"
+
+#: templates/base.html:109
+msgid "Log out"
+msgstr "התנתקות"
+
+#: templates/base.html:114
+msgid "Other SayIt sites"
+msgstr "אתרי SayIt אחרים"
+
+#: templates/base.html:129
+msgid "Edit"
+msgstr "עריכה"
+
+#: templates/base.html:141
+msgid "More&hellip;"
+msgstr "עוד&hellip;"
+
+#: templates/base.html:150
+msgid "Menu"
+msgstr "תפריט"
+
+#: templates/base.html:154
+msgid "Home"
+msgstr "בית"
+
+#: templates/base.html:155
+msgid "Speakers"
+msgstr "דוברי"
+
+#: templates/base.html:160 templates/base.html.py:162 templates/base.html:164
+msgid "Speeches"
+msgstr "נאומים"
+
+#: templates/base.html:172
+msgid "Search"
+msgstr "חיפוש"
+
+#: templates/base.html:173
+msgid "Go"
+msgstr "קדימה"
+
+#: templates/base.html:213
+msgid "Back to top"
+msgstr "חזרה למעלה"
+
+#: templates/base.html:223
+msgid ""
+"An open source tool for making transcripts really easy to read, search and "
+"share on the modern web"
+msgstr ""
+"כלי קוד פתוח ליצירת תמלילים בצורה קלה ופשוטה לקריאה, חיפוש ושיתוף ברשת "
+"האינטרנט המודרנית"
+
+#: templates/base.html:228
+msgid "Blog"
+msgstr "בלוג"
+
+#: templates/base.html:229
+msgid "Twitter"
+msgstr "טויטר"
+
+#: templates/base.html:230
+msgid "Facebook"
+msgstr "פייסבוק"
+
+#: templates/base.html:231
+msgid "GitHub"
+msgstr "גיטהאב"
+
+#: templates/base.html:236
+msgid "Get involved"
+msgstr "הפכו למעורבים"
+
+#: templates/base.html:238
+msgid "Developers"
+msgstr "מפתחים"
+
+#: templates/base.html:239
+msgid "Transcripts"
+msgstr "תמלילים"
+
+#: templates/base.html:244
+msgid "The Leveson Inquiry"
+msgstr "חקירת לוינסון (לפרטים http://en.wikipedia.org/wiki/Leveson_Inquiry)"
+
+#: templates/base.html:245
+msgid "Charles Taylor Trial"
+msgstr ""
+"משפטו של צ'רלס טיילור (לפרטים: http://en.wikipedia.org/wiki/Charles_Taylor_"
+"%28Liberian_politician%29)"
+
+#: templates/base.html:246
+msgid "Plays of Shakespeare"
+msgstr "מחזות של שייקספיר"
+
+#: templates/base.html:252
+msgid "mySociety"
+msgstr "mySociety"
+
+#: templates/base.html:253
+msgid "A mySociety project"
+msgstr "פרוייקט של mySociety"
+
+#: templates/base.html:256
+msgid "Poplus"
+msgstr "Poplus"
+
+#: templates/base.html:257
+msgid "A Poplus component"
+msgstr "רכיב של Poplus"
+
+#: templates/instance_invite_existing_message.txt:1
+#, python-format
+msgid ""
+"%(inviter)s has invited you to help edit \"%(instance_title)s\" on SayIt.\n"
+"\n"
+"As you're already a SayIt user, you can log in with your existing "
+"credentials,\n"
+"and get stuck in immediately. Just go to:\n"
+"\n"
+"%(instance_url)s\n"
+"\n"
+"Yours,\n"
+"The SayIt Team\n"
+msgstr ""
+"%(inviter)s הזמינו אותך לעזור לערוך את \"%(instance_title)s\" ב-SayIt.\n"
+"\n"
+"מכיוון שאת/ה כבר משתמשים ב-SayIt, תוכלו להתחבר עם ההרשאות הקיימות שלכם,\n"
+"ולהיכנס לעניין מיד. פשוט גלשו אל:\n"
+"\n"
+"%(instance_url)s\n"
+"\n"
+"שלכם,\n"
+"צוות SayIt\n"
+
+#: templates/instance_invite_existing_subject.txt:3
+#, python-format
+msgid "You've been invited to help edit \"%(instance_title)s\" on SayIt!"
+msgstr "הוזמנת לעזור לערוך את \"%(instance_title)s\" ב-SayIt!"
+
+#: templates/instances/index.html:5
+msgid "SayIt: Bringing transcripts into the Internet age"
+msgstr "SayIt: מביאים את התמלילים לעידן האינטרנט"
+
+#: templates/instances/index.html:13
+msgid "Bringing transcripts<br>into the Internet&nbsp;age"
+msgstr "מביאים תמלילים <br> אל עידן&nbsp;האינטרנט"
+
+#: templates/instances/index.html:14
+msgid ""
+"SayIt is a whole new way to organise, publish,<br>and share your transcripts "
+"– and it’s free."
+msgstr "SayIt הינה דרך חדש לארגן, לפרסם,<br>ולשתף את התמלילים שלכם - וזה חינם."
+
+#: templates/instances/index.html:15
+msgid "Start using SayIt"
+msgstr "התחילו להשתמש ב-SayIt"
+
+#: templates/instances/index.html:22
+msgid ""
+"Whether you want to <b>upload whole transcripts</b>, or throw together a "
+"<b>collection of individual quotes</b>, SayIt&nbsp;takes the hassle out of "
+"organizing and browsing your spoken and written&nbsp;content."
+msgstr ""
+"בין אם את/ה רוצה <b>להעלות תמליל שלם</b>, או לזרוק יחד <b>אוסף של ציטוטים "
+"נפרדים s</b>, SayIt&nbsp; מבטלת את הטרחה של ארגון וגלישה בתוכן המדובר והכתוב "
+"שלך."
+
+#: templates/instances/index.html:29
+msgid "For campaigners and community&nbsp;groups"
+msgstr "לאנשי קמפיין וקבוצות&nbsp;קהילתיות"
+
+#: templates/instances/index.html:30
+msgid ""
+"Publish transcripts from meetings or share statements from those in power. "
+"Anyone can use SayIt, alone or in collaboration with others."
+msgstr ""
+"פרסמו תמלילים מישיבות או שתפו הצהרות של בעלי ההשפעה. כל אחד ואחת יכולים "
+"להשתמש ב-SayIt\" לבד או בשיתוף פעולה עם אחרים"
+
+#: templates/instances/index.html:31
+msgid ""
+"With SayIt, it’s easy to browse, search or share any statement online – "
+"helping you spread your message further."
+msgstr ""
+"עם SayIt קל יותר לגלוש, לחפש או לשתף כל הצהרה באופן מקוון - מה שיעזור לך "
+"להפיץ את המסר שלך הלאה."
+
+#: templates/instances/index.html:32 templates/instances/index.html.py:45
+#: templates/instances/index.html:58 templates/instances/index.html.py:70
+msgid "See an example:"
+msgstr "ראו דוגמא:"
+
+#: templates/instances/index.html:32
+msgid "Quotes about West Pier, Brighton"
+msgstr "ציטוטים אודות West Pier, Brighton"
+
+#: templates/instances/index.html:35
+msgid "SayIt containing individual quotes about West Pier in Brighton"
+msgstr "SayIt כולל ציטוטים אודות West Pier שב-Brighton"
+
+#: templates/instances/index.html:42
+msgid "For councils and organisations that hold public&nbsp;meetings"
+msgstr "עבור מועצות וארגונים המקיימים ישיבות&nbsp;ציבוריות"
+
+#: templates/instances/index.html:43
+msgid ""
+"Still publishing meeting transcripts on PDFs? SayIt makes it easier for your "
+"readers to find the parts that really interest them."
+msgstr ""
+"עדיין מפרסמים תמלילי ישיבות בקבצבי PDF? SayIt מקלה על הקוראים שלכם למצוא את "
+"החלקים שבאמת מעניינים אותם."
+
+#: templates/instances/index.html:44
+msgid ""
+"Unlike crusty old PDFs, SayIt works beautifully on every device from a phone "
+"to a tablet to a desktop. And it’s acccessible for screenreaders and "
+"assistive devices."
+msgstr ""
+"שלא כמו קבצי PDF ישנים וקשים, SayIt עובדת נפלא על כל מכשיר, מטלפון נייד, דרך "
+"מחשבי לוח ועד למחשבים שולחניים. היא נגישה לקוראי מסך ואבזרי עזר."
+
+#: templates/instances/index.html:45
+msgid "The Leveson Inquiry transcripts"
+msgstr "תמלילי חקירת Leveson"
+
+#: templates/instances/index.html:48
+msgid "Screenshot of the SayIt speech editing interface"
+msgstr "תמונת מסך של ממשק עריכת הנאומים של SayIt"
+
+#: templates/instances/index.html:55
+msgid "For researchers, historians, and&nbsp;journalists"
+msgstr "לחוקרים, היסטוריונים ו&nbsp;עיתונאים"
+
+#: templates/instances/index.html:56
+msgid "Forget those dusty folders – SayIt organises your interviews for you."
+msgstr "שכחו מהתיקיות המאובקות- SayIt תארגן עבורך את כל הראיונות."
+
+#: templates/instances/index.html:57
+msgid ""
+"Search by keyword, across your entire canon or within just one interview. "
+"Browse by date, speaker or segment. Link to and share one statement, or "
+"entire interviews, with ease."
+msgstr ""
+"חפשו לפי מילת מפתח, בכל הקאנון או בתוך ראיון אחד. גלשו לפי תאריך, דובר/ת או "
+"סגמנט. קשרו ושתפו בקלות הצהרה אחד או ראיון שלם."
+
+#: templates/instances/index.html:58
+msgid "The Nixon Watergate tapes"
+msgstr "קלטות ניקסון מפרשת ווטרגייט"
+
+#: templates/instances/index.html:61
+msgid "President Nixon’s profile page in the Watergate Tapes SayIt"
+msgstr "הפרופיל של הנשיא ניקסון באתר SayIt של קלטות ווטרגייט"
+
+#: templates/instances/index.html:67
+msgid "And lots, lots more!"
+msgstr "ועוד הרבה הרבה יותר!"
+
+#: templates/instances/index.html:68
+msgid ""
+"SayIt isn’t just for work: it’s for anyone who wants to collect statements "
+"on any subject, or publish any form of spoken word."
+msgstr ""
+"SayIt אינו רק לשם עבודה: הוא לכל אחד ואחת שרוצים לאסוף הצהרות בכל נושא, או "
+"פרסום של מילה מדוברת בכל צורה."
+
+#: templates/instances/index.html:69
+msgid ""
+"From wartime love-letters to local history projects, SayIt is a wonderful, "
+"easy-access way to organise transcripts."
+msgstr ""
+"ממכתב אהבים בתקופת מלחמה לפרוייקטים על היסטוריה מקומית, SayIt הוא כלי נפלא, "
+"ודרך פשוטה לארגן תמלילים"
+
+#: templates/instances/index.html:70
+msgid "The complete works of Shakespeare"
+msgstr "אוסף העבודות המלא של שייקספיר"
+
+#: templates/instances/index.html:76
+msgid "Create your own SayIt and get started in seconds!"
+msgstr "צרו את ה-SayIt שלכם והתחילו תוך שניות!"
+
+#: templates/instances/index.html:77
+msgid "Start collecting speeches with SayIt"
+msgstr "התחילו לאסוף נאומים עם SayIt"
+
+#: templates/instances/index.html:84
+msgid "Or integrate the SayIt Component into your own website"
+msgstr "או לשלב את SayIt כרכיב באתר שלך"
+
+#: templates/instances/index.html:89
+msgid ""
+"The code that runs SayIt is also a <a href=\"http://poplus.org\">Poplus "
+"Component</a>, which means you can quickly host it on your own server, "
+"customise the look and feel, or build it into an existing website."
+msgstr ""
+"הקוד שמריץ את SayIt הוא גם <a href=\"http://poplus.org\">רכיב Poplust</a>, "
+"מה שאומר שתוכלו לארח אותו במהירות בשרת משלכם, להתאים את המראה והתחושה, או "
+"להבנות אותו אל תוך אתר קיים"
+
+#: templates/instances/index.html:92
+msgid "Develop with SayIt"
+msgstr "פיתוח עם SayIt"
+
+#: templates/instances/instance_form.html:6
+#: templates/instances/instance_form.html:20
+msgid "Edit instance"
+msgstr "עריכת מופע"
+
+#: templates/instances/instance_form.html:8
+msgid "New instance"
+msgstr "מופע חדש"
+
+#: templates/instances/instance_form.html:22
+msgid "Start a new SayIt"
+msgstr "התחילו SayIt חדש"
+
+#: templates/instances/instance_form.html:26
+msgid ""
+"SayIt gives you your own site for publishing and sharing speeches and "
+"statements."
+msgstr "SayIt נותן לאתר משלכם כד לפרסם ולשתף נאומים והצהרות."
+
+#: templates/instances/instance_form.html:27
+msgid ""
+"You could use it to publish transcripts of individual meetings, or rag-bag "
+"databases of everything said by a certain person or group of people (e.g. "
+"statements by political candidates). It&rsquo;s free and constantly "
+"improving."
+msgstr ""
+"תוכלו להשתמש בזה כדי לפרסם תמלילים של ישיבות בודדות, או לארוז יחד מאגרי "
+"נתוניםש ל כל מה שנאמר על ידי אדם אחד או קבוצה של אנשים (למשל הצהרות מפי "
+"מועמדים פוליטיים). זהt&rsquo;s חינם ומשתפר כל הזמן."
+
+#: templates/instances/instance_form.html:52
+msgid "roman-senate"
+msgstr "הסנאט הרומאי"
+
+#: templates/instances/instance_form.html:66
+msgid "Speeches by Ancient Roman Senators"
+msgstr "נאומים מאת סנטורים ברומא העתיקה"
+
+#: templates/instances/instance_form.html:75
+msgid "Selected speeches from roughly 700 BC to 400 AD"
+msgstr "נאומים נבחרים מ-700 לפנה\"ס ועד 400 לספירה לערך"
+
+#: templates/instances/instance_form.html:84
+msgid "Update instance"
+msgstr "עדכון מופע"
+
+#: templates/instances/your_instances.html:26
+msgid "(no description)"
+msgstr "(אין תיאור)"
+
+#: templates/instances/your_instances.html:41
+msgid "(created by you)"
+msgstr "(נוצר על ידכם)"
+
+#: templates/instances/your_instances.html:52
+#, python-format
+msgid ""
+"You have don't yet have any instances. Would you like to <a "
+"href='%(create_instance_url)s'>create one</a>?"
+msgstr ""
+"אין לך עדיין מופעים. האם תרצה/תרצי <a href='%(create_instance_url)s'> ליצור "
+"אחד</a>?"
+
+#: templates/messages/accept_invite_success.txt:2
+msgid "Password set. You can now create and edit speeches and sections."
+msgstr "הסיסמה נקבעה. את/ה יכולים ליצור ולערוך נאומים וסעיפים."
+
+#: templates/share_instance_with_collaborators.html:12
+msgid "Share your SayIt"
+msgstr "שתפו את ה-SayIt שלכם"
+
+#: templates/share_instance_with_collaborators.html:14
+msgid ""
+"Enter the e-mail address of someone you&rsquo;d like to be able to create "
+"and edit speeches and sections"
+msgstr ""
+"הזינו כתובת הדוא\"ל של מישהו שאתם&rsquo;d רוצים שיוכל/תוכל ליצור ולערוך "
+"נאומים וסעיפים"
+
+#: templates/share_instance_with_collaborators.html:23
+msgid "Send invite"
+msgstr "שלחו הזמנה"
+
+#: templates/speeches/home.html:6
+msgid "Invite friends to help"
+msgstr "הזמינו חברים לעזור"
+
+#: templates/speeches/home.html:13 templates/speeches/parentless_list.html:8
+#: templates/speeches/speaker_list.html:8
+msgid "This is a brand new SayIt site."
+msgstr "זהו אתר SayIt חדש לגמרי"
+
+#: templates/speeches/home.html:14 templates/speeches/parentless_list.html:9
+#: templates/speeches/speaker_list.html:9
+msgid ""
+"Its creator hasn&rsquo;t yet added any speeches or statements for you to see."
+msgstr "היוצר/ת עדיין לא הוסיפו נאומים או הצהרות בהם תוכלו לצפות"
+
+#: templates/speeches/home.html:15 templates/speeches/parentless_list.html:10
+#: templates/speeches/speaker_list.html:10
+msgid "Learn more about SayIt"
+msgstr "למדו עוד על SayIt"
+
+#: templates/speeches/speech_form.html:5
+msgid "Invite some friends to help you"
+msgstr "הזמינו חברים לעזור לכם"

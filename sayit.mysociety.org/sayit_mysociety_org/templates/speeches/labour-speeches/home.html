@@ -1,0 +1,62 @@
+{% extends 'speeches/home.html' %}
+{% load i18n %}
+{% load speech_utils %}
+
+{% block instance_search_title %}
+Search Labour party speeches
+{% endblock %}
+
+{% block after_search %}
+<div class="homepage-description">
+  <div class="full-page__row">
+      <div class="full-page__unit">
+          <p>Labour party speeches from 2010 to 2013. Made searchable,
+          browsable &amp; linkable.</p>
+          <p>This site is a showcase for SayIt, the transcription-publication
+          software. It’s not an exhaustive archive, but it’s full of
+          fascinating statements! <a href="/about">Find out how we did it
+          &raquo;</a></p>
+      </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block instance_blocks %}
+        </div>
+    </div>
+</div>
+
+<div class="featured-elements grey-section">
+  <div class="full-page__row">
+      <div class="featured-elements__unit">
+        <a href="/search/?q=austerity" class="featured-block">
+          <h3>Search for mentions of “austerity”</h3>
+          <span class="featured-block__date">
+            87 results
+          </span>
+        </a>
+      </div>
+      <div class="featured-elements__unit">
+        <a href="/search/?q=Scottish+independence" class="featured-block">
+          <h3>Search for mentions of “Scottish independence”</h3>
+          <span class="featured-block__date">
+            15 results
+          </span>
+        </a>
+      </div>
+      <div class="featured-elements__unit">
+        <a href="/search/?q=nhs" class="featured-block">
+          <h3>Search for mentions of “NHS”</h3>
+          <span class="featured-block__date">
+            450 results
+          </span>
+        </a>
+      </div>
+      <div class="featured-elements__unit">
+        <a href="/search/?q=minimum+wage" class="featured-block">
+          <h3>Search for mentions of “minimum wage”</h3>
+          <span class="featured-block__date">
+            66 results
+          </span>
+        </a>
+{% endblock %}

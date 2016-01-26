@@ -1,0 +1,17 @@
+{% load speech_i18n %}
+{% load speech_extras %}
+{% load staticfiles %}
+
+{% get_top_speakers as top_speakers %}      
+<div class="row top-speakers">
+
+    {% for speaker in top_speakers %}
+    <a href="{{ speaker.get_absolute_url }}">
+        <div class="speaker">
+            {{ speaker}}<br>
+            <small>{{ speaker.count }} {% if speaker.count == 1 %} speech {% else %} speeches {% endif %}</small>
+        </div>
+    </a>
+    {% endfor %}
+
+</div>
